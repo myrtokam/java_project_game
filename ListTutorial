@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Engine {
+	ArrayList<QuestionBox> questions = new ArrayList<>();
+	
+	
+	// Dwmh apanthshs sto ti kanei mia synarthsh:
+	// 1. pairnei ____
+	// 2. kanei ___ (meta kanei ___, ....)
+	// 3. sto telos epistrefei ___
+	
+	// pairnei mia erwthsh
+	// thn vazei sthn lista
+	void add_question(QuestionBox q) {
+		 questions.add(q);	
+	}
+	
+	// pairnei tipota
+	// ksekinaei na rwtaei. gia kathe erwthsh perimenei apanthsh
+	// thn apanthsh thelw na thn apothikeysw sto koytaki toy antikeimenoy ths erwthshs poy rwthsa
+	// to kanw afto gia oles tis erwthseis
+	// na ektypwnei poses swstes petyxame aptis synolikes (px 7 / 10)
+	void start_game() {
+		Scanner input = new Scanner(System.in);
+		// exw erwthseis sthn lista questions poy thelw na rwthsw kai na apothikeysw thn apanthsh toy xrhsth se aytes
+		
+		// mporw na grapsw kwdika wste kateythian na rwtioyntai oi erwthseis kai na pairnw apanthsh gia kathe mia?
+		// den kserw.
+		// perpatame prin prospathisoyme na treksoyme!
+		// mporw na grapsw kwdia gia na rwthsw mono thn prwth erwthsh?
+		
+		
+		// rwtaei kai apothikeyei apanthsh gia kathe erwthsh
+		for(int i = 0; i < questions.size(); i++) {
+			System.out.println(questions.get(i).question);
+			questions.get(i).apanthsh_xrhsth = input.nextLine();
+		}
+		
+		// afoy teleiwsw me tis erwthseis,
+		// katametrisi erotiseon poy apantithikan
+		//sigkrish gia na breis tis sostes
+		
+		System.out.println(count() + "/" + questions.size());
+		
+		
+	}
+	
+	// pairnei t i p o t a
+	// metraei tis swstes erwthseis
+	// epistrefei ton arithmo twn swstwn erwthsewn
+	int count() {
+		// ti exw: erotiseis me etoimes apantiseis/
+		// poy thelw na ftasw: epistrofi tou plithous ton soston erotiseon
+		int metrhths = 0;
+		
+		// prospathw na sygkrinw tis apanthseis ths prwths erwthshs
+		for(int i = 0; i < questions.size(); i++) {
+			if(questions.get(i).apanthsh_xrhsth.equals(questions.get(i).swsth_apanthsh)) {
+				metrhths++;
+			}
+		}
+		
+		return metrhths;
+	}
+}
