@@ -1,0 +1,31 @@
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// tha vazw erwthseis gia to paixnidi kai tha kserei h kathe erwthsh thn swsth apanthsh poy prepei meta o xrhsths na valei
+		
+		// afou valw oles tis erwthseis sto paixnidi, tha arxisw
+		// na rwtaw mia-mia ton xrhsth
+		
+		// afou o xrhsths apanthsei oles tis erwthseis, to paixnidi
+		// tha metraei poses swstes erwthseis epiase
+		// kai tha ektypwnei px 7/10
+		Engine my_game = new Engine();
+		
+		QuestionBox q1 = new QuestionBox("Posa km einai h gh apthn selhnh?", "300000");
+		
+		my_game.add_question(q1);
+		
+		
+		my_game.add_question(new QuestionBox("posps einai o plhthusmos tis europis?", "746,4 millions"));
+		
+		my_game.add_question(new QuestionBox("poses tainies xary potter uparxoun?", "8"));
+		
+		my_game.add_question(new QuestionBox("pos elegan to katoikidio tis ermionis?", "strabopodaros"));
+		
+		my_game.start_game();
+		//System.out.println(my_game.count());
+	}
+
+}
