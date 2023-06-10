@@ -1,0 +1,11 @@
+public class QuestionBox {
+	String question;
+	String swsth_apanthsh;
+	String apanthsh_xrhsth;
+	
+	public QuestionBox(String question, String swsth_apanthsh) {
+		super();
+		this.question = question;
+		this.swsth_apanthsh = swsth_apanthsh;
+	}
+}
