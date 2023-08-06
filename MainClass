@@ -18,11 +18,65 @@ public class MainClass {
 		my_game.add_question(q1);
 		
 		
-		my_game.add_question(new QuestionBox("posps einai o plhthusmos tis europis?", "746,4 millions"));
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του πρώτου βιβλιου Ηάrry Potter;", "Ο Χάρι Πότερ και η Φιλοσοφική Λίθος"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του δεύτερου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και η κάμαρα με τα μυστικά"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του τρίτου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και ο αιχμάλωτος του Αζκαμπάν"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του τέταρτου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και το κύπελο της φωτιάς"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του τρίτου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και το τάγμα του φοίνικα"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του τρίτου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και ο ημίαιμος πρίγκηψ"));
+
+		my_game.add_question(new QuestionBox("Ποι΄ς είναι ο τίτλος του τρίτου βιβλίου Ηάrry Potter;", "Ο Χάρι Πότερ και οι Κλήροι του Θανάτου "));
+
+		my_game.add_question(new QuestionBox("Π΄όσες ταινίες Ηάrry Potter υπάρχουν;", "8"));
 		
-		my_game.add_question(new QuestionBox("poses tainies xary potter uparxoun?", "8"));
-		
-		my_game.add_question(new QuestionBox("pos elegan to katoikidio tis ermionis?", "strabopodaros"));
+		my_game.add_question(new QuestionBox("Πως έλεγαν το κατοικίδιο της Ερμι΄΄ονης", "Στραβοπόδαρος"));
+
+		my_game.add_question(new QuestionBox("Πόσα αδέλφια έχει ο Ρον", "5"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν το κατοικίδιο του Ρον", "Σκάμπερς"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν το κατοικίδιο του Χάρι Πότερ", "Χέντβιχ"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν την θεία του Χάρι Πότερ;", "Πέτουνια"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν τον θείο του Χάρι Πότερ; (όνομα - επίθετο)", "Βερνόν Ντάρσλι"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν τον ξ΄άδελφο του Χάρι Πότερ;", "Ντάντλι"));
+
+		my_game.add_question(new QuestionBox("Ποίοι ήταν οι κιτώνες του hogwarts;( στα  αγγλικά)", "Slytherin, Hufflepuff, Gryffindor, Ravenclaw "));
+
+		my_game.add_question(new QuestionBox("Πόσοι ήταν οι κιτώνες του hogwarts;", "4"));
+
+		my_game.add_question(new QuestionBox("Πόσοι πεμπτουσιωτές υπήρχαν ;", "7"));
+
+		my_game.add_question(new QuestionBox("Τι ειχε στο μπαουλο  ο καθηγητης λούπιν στο πρώτο του μάθημα;", "Μπόγκαρντ"));
+
+		my_game.add_question(new QuestionBox("Πως έλεγαν το φίδι του Λόρδου Βόλντεμορντ ;", "Ναγκίνη "));
+
+		my_game.add_question(new QuestionBox(" Τι γλώσσα μιλούσε ο Χάρι Πότερ ;", "Ερπετικά"));
+
+		my_game.add_question(new QuestionBox(" Πως λεγότανε ο μαθητής του slitherin που προσπάθησε να σκοτώσει τον Νταμπλντορ; (αγγλικα)", "Drago Malfoy"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται ο καθηγητής των φίλτρων; (αγγλικα)", "Severus Snap"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται o φύλακας του Hogwarts; (αγγλικά)", "Rubius Hagrid"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται η αδελφή του Ρον;", "Τζίνη"));
+
+		my_game.add_question(new QuestionBox(" Πως έφτασαν στο Hogwards στην δεύτερη ταινία ο Ρον με τον Χάρι ;", "ιπτάμενο αυτοκίνητο"));
+
+		my_game.add_question(new QuestionBox(" Πως λέγεται το δεντρο στην αυλή του Hogards ;", "Ιτια που κλαίει"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται η καλύβα κοντά Hogwarts ;", "καλύβα που ουρλιάζει"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται το χωριό κοντά στο Hogwarts ;", "Χομπσσμιτ"));
+
+		my_game.add_question(new QuestionBox(" Πως ονομάζεται το σπιτικό ξωτικό που βοηθησε τον χάρι ;", "Ντόμπι"));
 		
 		my_game.start_game();
 		//System.out.println(my_game.count());
